@@ -11,7 +11,7 @@ android {
         minSdkVersion 9
         targetSdkVersion 28
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
     }
     buildTypes {
         release {
@@ -30,7 +30,8 @@ android {
     }
 
 }
-
+https://github.com/saiwu-bigkoo/Android-TagFlexboxLayout
+https://github.com/saiwu-bigkoo/Anddroid-TagFlexboxLayout
 def siteUrl = 'https://github.com/saiwu-bigkoo/Android-TagFlexboxLayout'                        // #CONFIG# // project homepage
 def gitUrl = 'https://github.com/saiwu-bigkoo/Android-TagFlexboxLayout.git'                     // #CONFIG# // project git
 group = "com.bigkoo"
