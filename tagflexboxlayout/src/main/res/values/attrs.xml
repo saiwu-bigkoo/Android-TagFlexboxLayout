@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name = "TagFlexboxLayout">
+        <attr name = "TagFlexboxLayoutMode" format = "dimension" >
+            <enum name="Single" value="0"/>
+            <enum name="Multiple" value="1"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
