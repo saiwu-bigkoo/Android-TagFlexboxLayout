@@ -10,7 +10,7 @@ Android-TagFlexboxLayout
 ```
 
 ## Demo 图片
-![](https://github.com/saiwu-bigkoo/Android-TagFlexboxLayout/preview/preview.gif)
+![](https://github.com/saiwu-bigkoo/Android-TagFlexboxLayout/tree/master/preview/preview.gif)
 
 ##### Config in xml
 
