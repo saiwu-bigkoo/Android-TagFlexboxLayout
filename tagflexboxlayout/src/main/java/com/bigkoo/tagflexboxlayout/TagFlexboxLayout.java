@@ -112,7 +112,7 @@ public class TagFlexboxLayout extends FlexboxLayout implements TagFlexboxAdapter
             while (it.hasNext()) {
                 int position = it.next().intValue();
                 TagView otherTagViewContainer = (TagView)getChildAt(position);
-                if(tagViewContainer != otherTagViewContainer) {
+                if(tagViewContainer != otherTagViewContainer && otherTagViewContainer != null) {
                     otherTagViewContainer.toggle();
                     adapter.removeChecked(position);
                 }
@@ -136,6 +136,10 @@ public class TagFlexboxLayout extends FlexboxLayout implements TagFlexboxAdapter
             items.add(adapter.getItem(p));
         }
         return items;
+    }
+
+    public void clearItems(){
+        clearOtherCheckedState(null);
     }
 
     public TagFlexboxAdapter getAdapter() {

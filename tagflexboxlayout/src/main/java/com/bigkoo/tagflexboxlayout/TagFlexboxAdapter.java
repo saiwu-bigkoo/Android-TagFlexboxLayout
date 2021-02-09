@@ -39,6 +39,9 @@ public abstract class TagFlexboxAdapter <T> {
         }
 
     }
+    public void clear() {
+        checkedList.clear();
+    }
 
     public boolean isChecked(int position){
         return checkedList.contains(position);

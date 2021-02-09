@@ -5,7 +5,7 @@ Android-TagFlexboxLayout
 
 #### 使用gradle 依赖:
 ```java
-   implementation 'com.bigkoo:tagflexboxlayout:1.0.0'
+   implementation 'com.bigkoo:tagflexboxlayout:1.0.1'
    implementation 'com.google.android:flexbox:1.1.0+'
 ```
 
